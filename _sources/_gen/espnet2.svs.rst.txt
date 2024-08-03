@@ -37,6 +37,17 @@ espnet2.svs.espnet_model
     :show-inheritance:
 
 
+.. _espnet2.svs.xiaoice.XiaoiceSing:
+
+espnet2.svs.xiaoice.XiaoiceSing
+-------------------------------
+
+.. automodule:: espnet2.svs.xiaoice.XiaoiceSing
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
 .. _espnet2.svs.xiaoice.__init__:
 
 espnet2.svs.xiaoice.__init__
@@ -59,56 +70,23 @@ espnet2.svs.xiaoice.loss
     :show-inheritance:
 
 
-.. _espnet2.svs.xiaoice.XiaoiceSing:
+.. _espnet2.svs.feats_extract.__init__:
 
-espnet2.svs.xiaoice.XiaoiceSing
--------------------------------
-
-.. automodule:: espnet2.svs.xiaoice.XiaoiceSing
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. _espnet2.svs.naive_rnn.__init__:
-
-espnet2.svs.naive_rnn.__init__
-------------------------------
-
-.. automodule:: espnet2.svs.naive_rnn.__init__
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. _espnet2.svs.naive_rnn.naive_rnn_dp:
-
-espnet2.svs.naive_rnn.naive_rnn_dp
+espnet2.svs.feats_extract.__init__
 ----------------------------------
 
-.. automodule:: espnet2.svs.naive_rnn.naive_rnn_dp
+.. automodule:: espnet2.svs.feats_extract.__init__
     :members:
     :undoc-members:
     :show-inheritance:
 
 
-.. _espnet2.svs.naive_rnn.naive_rnn:
+.. _espnet2.svs.feats_extract.score_feats_extract:
 
-espnet2.svs.naive_rnn.naive_rnn
--------------------------------
-
-.. automodule:: espnet2.svs.naive_rnn.naive_rnn
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. _espnet2.svs.singing_tacotron.singing_tacotron:
-
-espnet2.svs.singing_tacotron.singing_tacotron
+espnet2.svs.feats_extract.score_feats_extract
 ---------------------------------------------
 
-.. automodule:: espnet2.svs.singing_tacotron.singing_tacotron
+.. automodule:: espnet2.svs.feats_extract.score_feats_extract
     :members:
     :undoc-members:
     :show-inheritance:
@@ -136,6 +114,17 @@ espnet2.svs.singing_tacotron.decoder
     :show-inheritance:
 
 
+.. _espnet2.svs.singing_tacotron.singing_tacotron:
+
+espnet2.svs.singing_tacotron.singing_tacotron
+---------------------------------------------
+
+.. automodule:: espnet2.svs.singing_tacotron.singing_tacotron
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
 .. _espnet2.svs.singing_tacotron.encoder:
 
 espnet2.svs.singing_tacotron.encoder
@@ -147,23 +136,34 @@ espnet2.svs.singing_tacotron.encoder
     :show-inheritance:
 
 
-.. _espnet2.svs.feats_extract.__init__:
+.. _espnet2.svs.naive_rnn.naive_rnn:
 
-espnet2.svs.feats_extract.__init__
-----------------------------------
+espnet2.svs.naive_rnn.naive_rnn
+-------------------------------
 
-.. automodule:: espnet2.svs.feats_extract.__init__
+.. automodule:: espnet2.svs.naive_rnn.naive_rnn
     :members:
     :undoc-members:
     :show-inheritance:
 
 
-.. _espnet2.svs.feats_extract.score_feats_extract:
+.. _espnet2.svs.naive_rnn.__init__:
 
-espnet2.svs.feats_extract.score_feats_extract
----------------------------------------------
+espnet2.svs.naive_rnn.__init__
+------------------------------
 
-.. automodule:: espnet2.svs.feats_extract.score_feats_extract
+.. automodule:: espnet2.svs.naive_rnn.__init__
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+.. _espnet2.svs.naive_rnn.naive_rnn_dp:
+
+espnet2.svs.naive_rnn.naive_rnn_dp
+----------------------------------
+
+.. automodule:: espnet2.svs.naive_rnn.naive_rnn_dp
     :members:
     :undoc-members:
     :show-inheritance:

@@ -4,23 +4,12 @@ espnet2.layers package
 
 
 
-.. _espnet2.layers.stft:
+.. _espnet2.layers.label_aggregation:
 
-espnet2.layers.stft
--------------------
+espnet2.layers.label_aggregation
+--------------------------------
 
-.. automodule:: espnet2.layers.stft
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. _espnet2.layers.abs_normalize:
-
-espnet2.layers.abs_normalize
-----------------------------
-
-.. automodule:: espnet2.layers.abs_normalize
+.. automodule:: espnet2.layers.label_aggregation
     :members:
     :undoc-members:
     :show-inheritance:
@@ -37,34 +26,12 @@ espnet2.layers.create_adapter
     :show-inheritance:
 
 
-.. _espnet2.layers.create_adapter_fn:
+.. _espnet2.layers.sinc_conv:
 
-espnet2.layers.create_adapter_fn
---------------------------------
+espnet2.layers.sinc_conv
+------------------------
 
-.. automodule:: espnet2.layers.create_adapter_fn
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. _espnet2.layers.__init__:
-
-espnet2.layers.__init__
------------------------
-
-.. automodule:: espnet2.layers.__init__
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. _espnet2.layers.utterance_mvn:
-
-espnet2.layers.utterance_mvn
-----------------------------
-
-.. automodule:: espnet2.layers.utterance_mvn
+.. automodule:: espnet2.layers.sinc_conv
     :members:
     :undoc-members:
     :show-inheritance:
@@ -81,12 +48,45 @@ espnet2.layers.log_mel
     :show-inheritance:
 
 
-.. _espnet2.layers.sinc_conv:
+.. _espnet2.layers.__init__:
 
-espnet2.layers.sinc_conv
-------------------------
+espnet2.layers.__init__
+-----------------------
 
-.. automodule:: espnet2.layers.sinc_conv
+.. automodule:: espnet2.layers.__init__
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+.. _espnet2.layers.houlsby_adapter_layer:
+
+espnet2.layers.houlsby_adapter_layer
+------------------------------------
+
+.. automodule:: espnet2.layers.houlsby_adapter_layer
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+.. _espnet2.layers.stft:
+
+espnet2.layers.stft
+-------------------
+
+.. automodule:: espnet2.layers.stft
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+.. _espnet2.layers.create_adapter_fn:
+
+espnet2.layers.create_adapter_fn
+--------------------------------
+
+.. automodule:: espnet2.layers.create_adapter_fn
     :members:
     :undoc-members:
     :show-inheritance:
@@ -103,6 +103,28 @@ espnet2.layers.mask_along_axis
     :show-inheritance:
 
 
+.. _espnet2.layers.inversible_interface:
+
+espnet2.layers.inversible_interface
+-----------------------------------
+
+.. automodule:: espnet2.layers.inversible_interface
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+.. _espnet2.layers.utterance_mvn:
+
+espnet2.layers.utterance_mvn
+----------------------------
+
+.. automodule:: espnet2.layers.utterance_mvn
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
 .. _espnet2.layers.create_adapter_utils:
 
 espnet2.layers.create_adapter_utils
@@ -114,12 +136,12 @@ espnet2.layers.create_adapter_utils
     :show-inheritance:
 
 
-.. _espnet2.layers.label_aggregation:
+.. _espnet2.layers.abs_normalize:
 
-espnet2.layers.label_aggregation
---------------------------------
+espnet2.layers.abs_normalize
+----------------------------
 
-.. automodule:: espnet2.layers.label_aggregation
+.. automodule:: espnet2.layers.abs_normalize
     :members:
     :undoc-members:
     :show-inheritance:
@@ -136,28 +158,6 @@ espnet2.layers.time_warp
     :show-inheritance:
 
 
-.. _espnet2.layers.global_mvn:
-
-espnet2.layers.global_mvn
--------------------------
-
-.. automodule:: espnet2.layers.global_mvn
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. _espnet2.layers.inversible_interface:
-
-espnet2.layers.inversible_interface
------------------------------------
-
-.. automodule:: espnet2.layers.inversible_interface
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
 .. _espnet2.layers.augmentation:
 
 espnet2.layers.augmentation
@@ -169,12 +169,12 @@ espnet2.layers.augmentation
     :show-inheritance:
 
 
-.. _espnet2.layers.houlsby_adapter_layer:
+.. _espnet2.layers.global_mvn:
 
-espnet2.layers.houlsby_adapter_layer
-------------------------------------
+espnet2.layers.global_mvn
+-------------------------
 
-.. automodule:: espnet2.layers.houlsby_adapter_layer
+.. automodule:: espnet2.layers.global_mvn
     :members:
     :undoc-members:
     :show-inheritance:
